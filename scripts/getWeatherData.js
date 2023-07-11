@@ -11,7 +11,7 @@ exports.getWeatherData = async (location) => {
     options
   ).catch((error) => console.log(error));
   const newTemp = await temp.json();
-  return newTemp.data.timelines[0];
+  return newTemp.data.timelines[0].intervals;
 };
 
 // module.exports = { getWeatherData };

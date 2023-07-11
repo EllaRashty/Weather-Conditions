@@ -6,5 +6,5 @@ exports.constants = {
   FIELDS: "windSpeed,temperature,humidity,rainIntensity",
   API_KEY:"8QjbCGX9sOP5AGGCDHx9FUbXKdKo1bA2",
   API_KEY2:"LWaqHbzjJjj1yVnjKUT0h8Pti2wRBSt1",
-  HEADERS: ("Content-Type", "application/json")
+  QUERY_HOURS:72
 };

@@ -1,0 +1,18 @@
+{
+  "name": "tomorrow-backend-api",
+  "version": "1.0.0",
+  "description": "Express project for tomorrow-assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ella Rashty",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}

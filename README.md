@@ -28,7 +28,7 @@ Open a browser and go to this link:
 > http://localhost:5001/api/weather-conditions?location=40.7,-73.9&rule=temperature%3E20,windSpeed%3C10,humidity%3E50&operator=AND
 
 How to edit the parameters - 
-http://localhost:5001/api/weather-conditions?location=`{lat,lng}`&rule=`{temperature/windSpeed/humidity/rainIntensity ">" or "<" interger}`operator=`{AND/OR}`
+http:// localhost:5001/api/weather-conditions?location=`{lat,lng}`&rule=`{temperature/windSpeed/humidity/rainIntensity ">" or "<" interger}`operator=`{AND/OR}`
  * To check more then one condition separate them with " `,` " between each other i.e: `rule=temperature>20,windSpeed<10`
  * To check the conditions  in an *AND* state change the operator to be equal = `AND`
  * To check the conditions  in an *OR* state change the operator to be equal = `OR`

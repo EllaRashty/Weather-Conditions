@@ -1,5 +1,5 @@
 # Ella Rashty
-## Tomorrow.io Home assignment - weather API
+## Weather API
 
 
 *Overview*
